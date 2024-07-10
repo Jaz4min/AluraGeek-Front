@@ -1,0 +1,88 @@
+.dark-mode .header{
+    background-color: var(--dark-gray);
+}
+.dark-mode body{
+    background: var(--main-color);
+    color: var(--preto-blanco);
+}
+
+.dark-mode .footer__contacto h2{
+    color: var(--preto-blanco);
+}
+
+
+.dark-mode .productos__titulo{
+    color: var(--preto-branco, #FFF);
+}
+    
+
+/* toogle BTN */
+
+
+.dark-mode #checkbox + .switch {
+box-shadow: 0px 0px 1px rgb(151, 243, 255) inset,
+    0px 0px 2px rgb(151, 243, 255) inset,
+    0px 0px 10px rgb(151, 243, 255) inset,
+    0px 0px 40px rgb(151, 243, 255),
+    0px 0px 100px rgb(151, 243, 255),
+    0px 0px 5px rgb(151, 243, 255);
+border: 2px solid rgb(255, 255, 255);
+background-color: rgb(146, 180, 184);
+}
+.dark-mode .search__link{
+    box-shadow: 0px 0px 1px rgb(151, 243, 255) inset,
+    0px 0px 2px rgb(151, 243, 255) inset,
+    0px 0px 10px rgb(151, 243, 255) inset,
+    0px 0px 40px rgb(151, 243, 255),
+    0px 0px 100px rgb(151, 243, 255),
+    0px 0px 5px rgb(151, 243, 255);
+border: 2px solid rgb(255, 255, 255);
+background-color: rgb(146, 180, 184);
+}
+.dark-mode .to__top{
+    box-shadow: 0px 0px 1px rgb(151, 243, 255) inset,
+    0px 0px 2px rgb(151, 243, 255) inset,
+    0px 0px 10px rgb(151, 243, 255) inset,
+    0px 0px 40px rgb(151, 243, 255),
+    0px 0px 100px rgb(151, 243, 255),
+    0px 0px 5px rgb(151, 243, 255);
+border: 2px solid rgb(255, 255, 255);
+background-color: rgb(146, 180, 184);
+}
+.dark-mode .bi-chevron-double-up{
+color: rgb(255, 255, 255);   
+}
+
+
+.dark-mode .search__img{
+    filter: invert(100%);
+}
+
+.dark-mode .footer{
+    background: unset;
+}
+
+.dark-mode .rodapie{
+    background: var(--dark-gray);
+}
+.dark-mode .rodapie__link{
+    color: var(--Azul-100);
+}
+
+/* Seccion login */
+
+.dark-mode .login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+}
+
+.dark-mode .footer__links li a{
+    color: var(--preto-blanco);
+}
+
+.dark-mode .rodapie__container{
+    color: var(--preto-blanco);
+}

@@ -1,0 +1,283 @@
+
+
+.productos {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.productos__flia {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.4rem 0;
+}
+
+.productos__barra {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    padding: 0 1.5rem;
+}
+
+.productos__titulo {
+	color: var(--preto-100, #464646);
+	font-family: Raleway;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.productos__verMas {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.productos__verMas h4 {
+	display: flex;
+	color: var(--azul-100, #2a7ae4);
+	font-family: "Raleway", sans-serif;
+	font-size: 1.6rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.productos__verMas .productos__iconoFlecha {
+	background-image: url("../../svg/arrow.svg");
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+}
+
+.productos__tarjetas {
+	display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 97vw;
+    max-height: 534px;
+    overflow: hidden;
+    gap: 9rem;
+    padding: 3.5rem;
+}
+
+
+
+/* Cards de producto */
+.productos__caja {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+	
+}
+
+
+
+.productos__caja .card {
+	position: relative;
+    width: 26.1rem;
+    height: 43rem;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 26px;
+    box-shadow: -39px 4px 36px -19px rgba(71, 138, 231, 0.5), 
+	inset -8px 5px 54px -8px rgba(71, 138, 231, 0.6),
+	inset 0px 11px 5px 0px rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.productos__caja .card:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #1bbfe9;
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+
+.productos__caja .card:hover:before {
+	clip-path: circle(300px at 80% -20%);
+}
+
+.productos__caja .card:after {
+	position: absolute;
+	top: 30%;
+	left: -20%;
+	font-size: 12em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255, 255, 255, 0.04);
+}
+
+.productos__caja .card .imgBx {
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	width: 90%;
+	height: 91%;
+	transition: 0.5s;
+}
+
+.productos__caja .card:hover .imgBx {
+	top: 0%;
+	transform: translateY(-25%);
+	/* bug  */
+}
+
+.productos__caja .card .imgBx img {
+	position: absolute;
+    top: 58%;
+    left: 60%;
+    transform: translate(-50%, -68%) rotate(19deg);
+    width: 35rem;
+    min-width: 20rem;
+    max-width: 85%;
+	filter: drop-shadow(-14px 1px 6px #000);
+}
+
+.productos__caja .card .contentBx {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    transition: 1s;
+    z-index: 90;
+}
+    
+
+.productos__caja .card:hover .contentBx {
+	height: 210px;
+}
+
+.productos__caja .card .contentBx h2 {
+	position: relative;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: rgb(0, 0, 0);
+}
+
+.productos__caja .card:hover .contentBx .size {
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.5s;
+}
+
+.productos__caja .card:hover .contentBx .color {
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.6s;
+}
+
+.productos__caja .card .contentBx .size h3,
+.productos__caja .card .contentBx .color h3 {
+	color: rgb(0, 0, 0);
+	font-weight: 800;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+.productos__caja .card .contentBx .size span {
+	width: 61px;
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	margin: 0 5px;
+	transition: 0.5s;
+	color: #000000;
+	cursor: pointer;
+}
+
+
+
+
+
+.productos__caja .card .contentBx a {
+	display: inline-block;
+    padding: 10px 20px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 38px;
+    box-shadow: 35px 35px 68px 0px rgba(215, 215, 215, 0.5), inset -8px -8px 16px 0px rgba(215, 215, 215, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    margin-top: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.119);
+    text-decoration: none;
+    font-weight: 800;
+    color: #111;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 0.5s;
+}
+
+.productos__caja .card:hover .contentBx a {
+	opacity: 1;
+	transform: translateY(0px) scale(1.2);
+	transition-delay: 0.7s;
+}
+
+
+
+/* MOBILE VIEW */
+
+@media (max-width: 560px) {
+
+	.productos__flia{
+		padding: 0;
+	}
+	.productos__tarjetas{
+		width: 101vw;
+		display: flex;
+		justify-content: center;
+		gap: 25rem;
+	}
+
+	.productos__caja .card {
+		width: 26.1rem;
+		height: 38rem;
+	}
+	.productos__caja .card .imgBx {
+		top: 32%;
+		transform: translateY(-48%);
+		width: 90%;
+		height: 76%;
+	}
+	.productos__barra {
+		padding: 0;
+		width: 90%;
+	}
+	.productos__caja .card .imgBx img {
+        top: 52%;
+        left: 62%;
+        transform: translate(-50%, -55%) rotate(16deg);
+        max-width: 19rem;
+		
+	}
+	.productos__caja .card .nemesis img {
+		width: 14rem;
+	}
+	.productos__caja .card:hover .contentBx {
+		height: 163px;
+	}
+
+	.productos__caja .card .contentBx h2 {
+        font-weight: 900;
+        letter-spacing: 0px;
+	}
+	.productos__caja .card .contentBx .size span {
+        width: 60px;
+        text-align: center; 
+        font-size: 20px;
+        margin: 0px 2px;
+	}
+}

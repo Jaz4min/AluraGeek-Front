@@ -1,0 +1,132 @@
+{
+  "product": [
+    {
+      "img": "https://www.cibermoda.mx/assets/images/craft_images/productos/Consola-Retro-Portatil-X12-Plus-pantalla-7-pulgadas-color-rojo-azul-joystick.webp",
+      "name": "X12 Plus",
+      "price": "$4500.00",
+      "Description": "consola portatil, 16 Gb de RAM",
+      "category": "consolas",
+      "id": 1
+    },
+    {
+      "img": "https://revistasociosams.com/wp-content/uploads/2021/03/control-inalambrico-Xbox%E2%80%8B-1.png",
+      "category": "consolas",
+      "name": "Control Xbox One",
+      "price": "$950.00",
+      "description": "ENDLESS CUSTOMIZATIONS - Handpick lighting effects, colors, brightness and more for 8 individual RGB zones using the free PDP Control Hub App. Here you can also re-map buttons, adjust deadzones, and sync audio.\nDESIGNED FOR IN-GAME EFFICIENCY - Adjust your game and chat audio on-the-fly using the audio controls located on the D-pad. Share your captured images and videos easily with the dedicated share button in the center.\nALL DAY GAMING ERGONOMICS - Laser-etched texture on grips & triggers provide comfort and accuracy. Includes an 8ft, detachable USB-C cable for plenty of room to play without the need for batteries.\nOFFICIALLY LICENSED - Officially licensed by Xbox for Xbox Series X|S, and compatible with Xbox One and Windows 10/11.\n1 MONTH FREE GAME PASS ULTIMATE - Includes 30-Days of Xbox Game Pass Free. Valid for new Xbox Game Pass Ultimate members only.",
+      "id": 515151
+    },
+    {
+      "img": "https://www.incentivosblackhawk.com.mx/wp-content/uploads/2022/05/Steam.png",
+      "category": "consolas",
+      "name": "Steam Card",
+      "price": "$200.00",
+      "description": "Tarjetas de Steam desde 200 pelucholares",
+      "id": 251541
+    },
+    {
+      "img": "https://www.techpowerup.com/review/scuf-impact-controller-ps4-pc/images/small.png",
+      "name": "Control usb",
+      "price": "$500.00",
+      "Description": "Control de china",
+      "category": "consolas",
+      "id": 62652
+    },
+    {
+      "img": "https://virtumaniacos.com/wp-content/uploads/2022/03/playstation-vr-visor.webp",
+      "name": "Oculus Quest 2 ",
+      "price": "$4500.00",
+      "Description": "Su versatilidad nos va a permitir usarlas en formato Standalone, es decir no depende de ningún otro elemento como cámaras o hardware externo, y esto las ha convertido el las gafas VR más vendidas desde 2020. Incluso puedes conectarlas a un ordenador (opcional) por cable o por wifi para jugar a juegos y usar aplicaciones aún más exigentes. ",
+      "category": "consolas",
+      "id": 41451632
+    },
+    {
+      "img": "https://otakutienda.com/cdn/shop/products/IMG_5186_580x.png?v=1644943571",
+      "name": "Pikachu Itachi  edition",
+      "price": "$500.00",
+      "Description": "Edición especial Pikachu Itachi  anbu",
+      "category": "diversos",
+      "id": 425222523
+    },
+    {
+      "img": "https://ggezstore.net/wp-content/uploads/2021/12/DEADPOOL-PIKACHU-e1640658722195.png",
+      "name": "Pikachu Deadpool",
+      "price": "$250.00",
+      "Description": "Pikachu edición deadpool",
+      "category": "diversos",
+      "id": 521252225
+    },
+    {
+      "img": "https://cdn.shopify.com/s/files/1/2437/4099/products/spider-man_marvel_silo_480x672.png?v=1649713239",
+      "category": "diversos",
+      "name": "Spiderman Hot Toys",
+      "price": "$660.00",
+      "description": "Spiderman Hot Toys chibi",
+      "id": 62626461232
+    },
+    {
+      "img": "https://www.panupli.es/3364-large_default/funko-pop-es-dla-gandalf-montado-en-gwaihir.jpg",
+      "name": "Funko Gandalf en Gwaihir",
+      "price": "$600.00",
+      "Description": "Colecciona el Funko POP de Gandalf montado en el águila Gwaihir de las increíbles películas de El Señor de los Anillos",
+      "category": "diversos",
+      "id": 2632216515
+    },
+    {
+      "img": "https://lemongamesmx.com/cdn/shop/products/fun55641-dragon-ball-z-cell-first-form-glow-in-the-dark-pop-vinyl-figure-popcultcha-01_480x480.png?v=1661980008",
+      "name": "Cell DBZ",
+      "price": "$450.00",
+      "Description": "Cell primera forma, retroiluminado",
+      "category": "diversos",
+      "id": 52320634841652
+    },
+    {
+      "img": "https://cdn1.coppel.com/images/catalog/mkp/1773/5000/17733590-1.jpg",
+      "name": "Funko Vader",
+      "price": "$350",
+      "description": "Funko Darth Vader",
+      "category": "starwars",
+      "id": "bb18ddc2-0955-4b85-939e-2fe8dfa661c7"
+    },
+    {
+      "img": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA12N6pr.img?w=500&h=500&m=6",
+      "category": "Grogu = Baby yoda",
+      "name": "Baby Yoda",
+      "price": "$350",
+      "description": "starwars",
+      "id": "e5a56906-0e69-4c38-a99a-f24b587c0cba"
+    },
+    {
+      "img": "https://tooys.mx/media/wysiwyg/heavy-weapons-clone-trooper-and-barc-speeder-with-sidecar_star-wars_13.png",
+      "category": "starwars",
+      "name": "CLONE TROOPER AND BARC SPEEDER ",
+      "price": "$3000.00",
+      "description": "HEAVY WEAPONS CLONE TROOPER AND BARC SPEEDER WITH SIDECAR - STAR WARS: THE CLONE WARS ESCALA 1:6 SET POR HOT TOYS\n",
+      "id": "1363e947-4d3b-4001-81eb-4b9e4e4fc777"
+    },
+    {
+      "img": "https://tooys.mx/media/wysiwyg/DARTH-VADER-MYTHOS-estatua-por-sideshow-22.png",
+      "category": "starwars",
+      "name": "DARTH VADER MYTHOS ",
+      "price": "$3500",
+      "description": "Sideshow presenta la estatua de los mitos de Darth Vader™, una adición del lado oscuro a tu galaxia de coleccionables de Star Wars™ .",
+      "id": "3b7b6984-147e-4c8d-9fe5-448c04837ba2"
+    },
+    {
+      "img": "https://www.lego.com/cdn/cs/set/assets/bltde62e4576a817dd4/75349.png",
+      "category": "starwars",
+      "name": " Capitán Rex  - lego",
+      "price": "$600.00",
+      "description": "Casco del Capitán Rex 75349 | Star Wars™ | Oficial LEGO® Shop MX",
+      "id": "39c7eb06-84e4-4029-93f5-3f16c63d9857"
+    },
+    {
+      "img": "https://www.distritomax.com/cdn/shop/products/yoda_star-wars_silo_480x716.png?v=1648847363",
+      "category": "starwars",
+      "name": "Wars - Yoda Escala 1/6",
+      "price": "$4900.00",
+      "description": "Sideshow Collectibles: Star Wars The Clone Wars - Yoda Escala 1/6\n\n\"Para responder al poder con poder, la forma Jedi no lo es\".\n\nSideshow presenta la figura coleccionable del del icónico maestro Yoda, Inspirado en la popular serie animada de Star Wars: The Clone Wars, La figura de Yoda se une a la galaxia de coleccionables de escala 1/6 de Sideshow.",
+      "id": "35294dee-78ed-420a-a6c6-594fca24c30e"
+    }
+  ]
+}
